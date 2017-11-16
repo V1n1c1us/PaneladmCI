@@ -99,20 +99,6 @@ Modernizr.addTest('ios',function(){return!!navigator.userAgent.match(/iPhone|iPa
 
     this.updateBar(100);    
   }
-
-  Bjax.prototype.backdrop = function(){
-    this.$element.css('position','relative')
-    this.$backdrop = $('<div class="backdrop fade"></div>')
-      .appendTo(this.$element);
-
-    this.$backdrop[0].offsetWidth; // force reflow
-    this.$backdrop.addClass('in');
-
-    this.$bar = $('<div class="bar b-t b-info"></div>')
-      .width(0)
-      .appendTo(this.$backdrop);
-  }
-
   Bjax.prototype.update = function (){
     !this.$element.is('html') && this.$element.html(this.$content);
     if( this.$element.is('html') ) {

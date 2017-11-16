@@ -8,13 +8,13 @@
                   <div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm">Start</div>
                   <ul class="nav nav-main" data-ride="collapse">
                     <li >
-                      <a href="index.html" class="auto">
+                      <a href="index.html">
                         <i class="i i-statistics icon">
                         </i>
                         <span class="font-bold">Overview</span>
                       </a>
                     </li>
-                    <li  class="active">
+                    <li>
                       <a href="#" class="auto">
                         <span class="pull-right text-muted">
                           <i class="i i-circle-sm-o text"></i>
@@ -49,6 +49,42 @@
                         </li>
                         <li >
                           <a href="layout-fluid.html" class="auto">                                                        
+                            <i class="i i-dot"></i>
+
+                            <span>Fluid layout</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="auto">
+                        <i class="i i-stack icon"></i>
+                        <span class="font-bold">Cliente</span>
+                      </a>
+                      <ul class="nav dk">
+                        <li>
+                          <a href="<?php echo base_url('admin/cliente/')?>">                                                        
+                            <i class="i i-dot"></i>
+
+                            <span>Cadastrar Clientes</span>
+                          </a>
+                        </li>
+                        <li >
+                        <a href="<?php echo base_url('admin/cliente/lista_clientes')?>">                                                                                                               
+                            <i class="i i-dot"></i>
+
+                            <span>Listar Clientes</span>
+                          </a>
+                        </li>
+                        <li >
+                        <a href="<?php echo base_url('admin/categoria/')?>">                                                       
+                            <i class="i i-dot"></i>
+
+                            <span>Cadastrar Categoria</span>
+                          </a>
+                        </li>
+                        <li >
+                          <a href="<?php echo base_url('admin/categoria/')?>">                                                        
                             <i class="i i-dot"></i>
 
                             <span>Fluid layout</span>

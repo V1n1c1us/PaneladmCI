@@ -1,8 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Home extends CI_Controller {
+	
+	public function __construct(){
+		parent::__construct();
 
+		$this->load->model('Model_Categoria','categoriaModel');
+		$this->categoria = $this->categoriaModel->listAllCategoria();
+	}
 	/**
 	 * Index Page for this controller.
 	 *
@@ -20,6 +26,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$dados['categorias'] = $this->categoria;
+		$this->load->view('index', $dados);
+		$this->load->view('frontend/template/footer');
 	}
 }

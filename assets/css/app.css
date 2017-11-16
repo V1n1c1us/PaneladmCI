@@ -3489,7 +3489,7 @@ fieldset[disabled] .i-checks input + i:before {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-.backdrop {
+/*.backdrop {
   position: absolute;
   top: 0;
   right: 0;
@@ -3505,7 +3505,7 @@ fieldset[disabled] .i-checks input + i:before {
 .backdrop.in {
   opacity: 0.8;
   filter: alpha(opacity=80);
-}
+}*/
 .h {
   font-size: 170px;
   font-weight: 300;

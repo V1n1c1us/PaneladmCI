@@ -10,7 +10,16 @@
   <link rel="stylesheet" href="<?php echo base_url('assets/css/font-awesome.min.css')?>" type="text/css" />
   <link rel="stylesheet" href="<?php echo base_url('assets/css/icon.css')?>" type="text/css" />
   <link rel="stylesheet" href="<?php echo base_url('assets/css/font.css')?>" type="text/css" />
-  <link rel="stylesheet" href="<?php echo base_url('assets/css/app.css')?>" type="text/css" />  
+  <link rel="stylesheet" href="<?php echo base_url('assets/css/app.css')?>" type="text/css" />
+  <link rel="stylesheet" href="<?php echo base_url('assets/js/datatables/datatables.css')?>" type="text/css" />
+
+
+  <script src="<?php echo base_url('assets/js/jquery.min.js')?>"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="<?php echo base_url('assets/js/jqueryForm.min.js')?>"></script> 
+
+
+
     <!--[if lt IE 9]>
     <script src="js/ie/html5shiv.js"></script>
     <script src="js/ie/respond.min.js"></script>
@@ -26,8 +35,7 @@
             <i class="fa fa-bars"></i>
           </a>
           <a href="index.html" class="navbar-brand">
-            <img src="images/logo.png" class="m-r-sm" alt="scale">
-            <span class="hidden-nav-xs">Scale</span>
+            <img src="<?php echo base_url('assets/images/logo.png')?>" class="m-r-sm" alt="scale">
           </a>
           <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
             <i class="fa fa-cog"></i>
