@@ -10,11 +10,7 @@ ul li {
   margin: 0;
   padding: 0;
 }
-img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
+
 header{
     background-color: #01183b;
 }
@@ -22,18 +18,18 @@ header{
   margin-top: 70px;
 }
 .nav-link{ color: #FFFFFF; font-weight: bold; }
-.nav-link:hover{ color: #EFA300; transition-property: color;
+.nav-link:hover{ color: #EFA300; transition-prorpiedade: color;
   transition-duration: 1s;
   transition-timing-function: linear; 
 }
 .owl-carousel, .owl-stage-outer{height: 466px; position: relative;}
 .back-form {z-index: 3; height: 63px; background: rgba(255, 255, 255, 0.8); -webkit-clip-path: -webkit-clip-path: polygon(13% 1%, 87% 0, 100% 100%, 0 100%);
   clip-path: polygon(13% 1%, 87% 0, 100% 100%, 0 100%); position: relative; top: -62px;}
+  .form-control{text-align: center; color: #ea9007 !important; font-weight: bold; border-radius: 0.75rem !important; border: 3px solid #00183B !important; background-color: transparent !important}
 
-  .form-control{text-align: center; color: #ea9007 !important; font-weight: bold; border-radius: 0.75rem !important; border: 3px solid #01183b !important; background-color: transparent !important}
   .btn-primary {
     color: #ea9007 !important;
-    background-color: transparent !important;
+    background-color: #00183B !important;
     border: 3px solid #01183b !important;
     border-radius: 0.75rem !important;
 }
@@ -55,20 +51,25 @@ h2.titulo:before {
     background-color: #01183b;
 }
 /*---///---///---///---///---///---///---///---///---///---
-    08. PROPERTY CSS START
+    08. prorpiedade CSS START
 ---///---///---///---///---///---///---///---///---///---*/
 .propriedades-sec{
   padding: 100px 0 70px;
 }
 
-.at-property-sec {
+.at-prorpiedade-sec {
   padding: 100px 0 70px;
 }
-.at-property-img {
+.at-prorpiedade-img img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.at-prorpiedade-img{
   position: relative;
   overflow: hidden;
 }
-.at-property-img .at-property-overlayer {
+.at-prorpiedade-img .at-prorpiedade-overlayer {
   position: absolute;
   bottom: -100%;
   z-index: 111;
@@ -81,7 +82,7 @@ h2.titulo:before {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.at-property-item:hover .at-property-img .at-property-overlayer {
+.at-prorpiedade-item:hover .at-prorpiedade-img .at-prorpiedade-overlayer {
   left: 0;
   bottom: 0;
   -webkit-transition: all 0.5s ease-in-out;
@@ -90,7 +91,7 @@ h2.titulo:before {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.at-property-btn {
+.at-prorpiedade-btn {
   text-transform: uppercase;
   border: 1px solid #e0e0e0;
   background: transparent;
@@ -111,7 +112,7 @@ h2.titulo:before {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.at-property-item:hover .at-property-btn {
+.at-prorpiedade-item:hover .at-prorpiedade-btn {
   color: #e0e0e0;
   background: rgba(0, 0, 0, 0.7);
   top: 50%;
@@ -121,7 +122,7 @@ h2.titulo:before {
   -ms-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
-.at-property-img h4 {
+.at-prorpiedade-img h4 {
   color: #ffffff;
   font-weight: 600;
   padding: 5px 10px;
@@ -137,7 +138,7 @@ h2.titulo:before {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.at-property-item:hover .at-property-img h4 {
+.at-prorpiedade-item:hover .at-prorpiedade-img h4 {
   left: -110px;
   opacity: 0;
   -webkit-transition: all 0.9s ease-in-out;
@@ -146,7 +147,7 @@ h2.titulo:before {
   -ms-transition: all 0.9s ease-in-out;
   transition: all 0.9s ease-in-out; 
 }
-.at-property-img h5 {
+.at-prorpiedade-img h5 {
   color: #ffffff;
   font-weight: 600;
   padding: 5px 10px;
@@ -162,7 +163,7 @@ h2.titulo:before {
   -ms-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
-.at-property-item:hover .at-property-img h5 {
+.at-prorpiedade-item:hover .at-prorpiedade-img h5 {
   left: -110px;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
@@ -171,42 +172,42 @@ h2.titulo:before {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;  
 }
-.at-property-dis {
+.at-prorpiedade-dis {
   padding: 10px 20px;
   background: #CC935C;
 }
-.at-property-dis ul li {
+.at-prorpiedade-dis ul li {
   display: inline-block;
   color: #ffffff;
   margin-right: 20px;
 }
-/*.at-property-dis li + li {
+/*.at-prorpiedade-dis li + li {
   margin-left: 12%;
 }*/
-.at-property-dis ul li i {
+.at-prorpiedade-dis ul li i {
   margin-right: 5px;
   color: #ffffff;
 }
-.at-property-location {
+.at-prorpiedade-location {
   background: #F2F2F2;
   padding: 30px 20px;
 }
-.at-property-location h4 i {
+.at-prorpiedade-location h4 i {
   margin-right: 5px;
   color: #737373;
 }
-.at-property-location h4 a {
+.at-prorpiedade-location h4 a {
   color: #CC935C;
 }
-.at-property-location p i {
+.at-prorpiedade-location p i {
   margin-right: 5px;
   color: #737373;
 }
-.at-property-location p {
+.at-prorpiedade-location p {
   text-transform: capitalize;
   color: #111111;
 }
-.at-property-sec .hvr-bounce-to-right {
+.at-prorpiedade-sec .hvr-bounce-to-right {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -214,8 +215,8 @@ h2.titulo:before {
   background: #333333 !important;
 }
 
-/*********** Property right sidebar start **********/
-.at-property-right-sidebar {
+/*********** prorpiedade right sidebar start **********/
+.at-prorpiedade-right-sidebar {
   
   }
   .at-pagination .pagination {
@@ -371,3 +372,4 @@ h2.titulo:before {
   .at-preview {
       margin-bottom: 50px;
   }
+
