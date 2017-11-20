@@ -1,0 +1,47 @@
+/* RESET  */
+*{margin: 0; padding: 0; border: 0; vertical-align: baseline;}
+
+
+header{
+    background-color: #01183b;
+}
+.margin-70 {
+  margin-top: 70px;
+}
+.nav-link{ color: #FFFFFF; font-weight: bold; }
+.nav-link:hover{ color: #EFA300; transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: linear; 
+}
+.owl-carousel, .owl-stage-outer{height: 466px; position: relative;}
+.back-form {z-index: 3; height: 63px; background: rgba(255, 255, 255, 0.8); -webkit-clip-path: -webkit-clip-path: polygon(13% 1%, 87% 0, 100% 100%, 0 100%);
+  clip-path: polygon(13% 1%, 87% 0, 100% 100%, 0 100%); position: relative; top: -62px;}
+
+  .form-control{text-align: center; color: #ea9007 !important; font-weight: bold; border-radius: 0.75rem !important; border: 3px solid #01183b !important; background-color: transparent !important}
+  .btn-primary {
+    color: #ea9007 !important;
+    background-color: transparent !important;
+    border: 3px solid #01183b !important;
+    border-radius: 0.75rem !important;
+}
+.formBusca{ margin-left: 130px; margin-top: 10px;}
+
+.titulo-header{ text-align: center; text-transform: uppercase; color: red;}
+.titulo-header h2.titulo { position: relative;}
+h2.titulo:before {
+  width: 70px;
+  height: 5px;
+  margin-left: -43px;
+  margin-top: 18px;
+}
+  h2.titulo:after, h2.titulo:before {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    content: '';
+    background-color: #01183b;
+}
+
+.propriedades-sec{
+  padding: 100px 0 70px;
+}
