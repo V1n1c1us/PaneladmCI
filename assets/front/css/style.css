@@ -577,37 +577,25 @@ opacity: 1;
 transition-duration: 1.5s;
 }
 
-.pattern-bg {
-  background-image: url('http://www.wiselythemes.com/html/cozy/images/patterns/pattern1.jpg');
+.bgParallax {
+  font-family: 'Elsie', cursive;
+  color:#FFF;
+  margin: 0 auto;
   width: 100%;
-  height: 200%;
-  background-repeat: repeat;
-}
-
-.parallax {
-  padding: 85px 0;
-  border-top: 1px solid #e3e3e3;
-  border-bottom: 1px solid #e3e3e3;
-}
-.parallax, .pattern-bg {
+  max-width: 1920px;
   position: relative;
-}
-.pattern-bg:before {
-  left: 0;
-  width: 100%;
-  content: " ";
-  top: 0;
-}
+  min-height: 100%;
+  text-shadow:0 0 10px rgba(0,0,0,0.7);
 
-.pattern-bg:before {
-  position: absolute;
-  height: 100%;
-  background-color: #f1f3f6;
-  z-index: 0;
-  -webkit-opacity: .82;
-  -moz-opacity: .82;
-  opacity: .82;
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
-
-
+.bgParallax {
+width: 100%;
+text-align: center;
+margin:0 auto;
+padding:20% 0 0;
+background-image: url('http://tableless.github.io/exemplos/parallax/bg1.jpg');
+}

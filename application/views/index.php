@@ -267,27 +267,42 @@
             </div>    
         </div>    
     </section>
-    <section class="parallax pattern-bg" data-stellar-background-ratio="0.5" style="background-position: -25px -51.3984px;">>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="section-title animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="50">Our Partners</h1>
-						
-						<div id="partners">
-							<div class="item animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="250">
-								<a href="#"><img src="images/partner1.png" alt="" onmouseover="this.src='images/partner1-mouseover.png';" onmouseout="this.src='images/partner1.png';"></a>
-							</div>
-							<div class="item animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="450">
-								<a href="#"><img src="images/partner2.png" alt="" onmouseover="this.src='images/partner2-mouseover.png';" onmouseout="this.src='images/partner2.png';"></a>
-							</div>
-							<div class="item animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="650">
-								<a href="#"><img src="images/partner3.png" alt="" onmouseover="this.src='images/partner3-mouseover.png';" onmouseout="this.src='images/partner3.png';"></a>
-							</div>
-							<div class="item animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="850">
-								<a href="#"><img src="images/partner4.png" alt="" onmouseover="this.src='images/partner4-mouseover.png';" onmouseout="this.src='images/partner4.png';"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+    <section  id="quemsomos" class="bgParallax" data-speed="15">
+    <div class="container">
+        <div class="row">
+            <div class="col-md col-xs">
+                <i class="fa fa-pencil"></i>
+                <h3>IMÓVEL SOB ENCOMENDA</h3>
+            </div>  
+            <div class="col-md col-xs">
+                <i class="fa fa-pencil"></i>
+                <h3>IMÓVEL SOB ENCOMENDA</h3>
+            </div>  
+            <div class="col-md col-xs">
+                <i class="fa fa-pencil"></i>
+                <h3>IMÓVEL SOB ENCOMENDA</h3>
+            </div>  
+         </div>  
+    </div>  
         </section>
+        <section class="margin-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md col-xs feature animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="250">
+                    <i class="fa fa-pencil"></i>
+                    <h3>IMÓVEL SOB ENCOMENDA</h3>
+                    <p>Entre em contato conosco e descreva o imóvel que você procura e nós avisaremos quando encontrá-lo</p>
+                </div>  
+                <div class="col-md col-xs feature animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="250">
+                    <i class="fa fa-pencil"></i>
+                    <h3>FINANCIAMENTO</h3>
+                    <p>As melhores ofertas de crédito para você financiar seu imóvel</p>
+                </div> 
+                <div class="col-md col-xs feature animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="250">
+                    <i class="fa fa-pencil"></i>
+                    <h3>PRÉDIO COMERCIAL</h3>
+                    <p>Sua empresa precisa de um novo espaço? Temos imóveis comercias com preços excelentes e espaços arrojados</p>
+                </div>             
+            </div>    
+        </div>    
+    </section>
