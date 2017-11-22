@@ -3,5 +3,6 @@
 <script src="<?php echo base_url('assets/front/js/bootstrap.min.js')?>"></script>
 <script src="<?php echo base_url('assets/front/js/owl.carousel.min.js')?>"></script>
 <script src="<?php echo base_url('assets/front/js/scripts.js')?>"></script>
+<script src="<?php echo base_url('assets/front/js/numscroller.js')?>"></script>
 </body>
 </html>

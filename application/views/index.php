@@ -272,15 +272,15 @@
         <div class="row">
             <div class="col-md col-xs">
                 <i class="fa fa-pencil"></i>
-                <h3>IMÓVEL SOB ENCOMENDA</h3>
+                <h3><span class='numscroller' data-min='1' data-max='1000' data-delay='5' data-increment='10'>1000</span></h3>
             </div>  
             <div class="col-md col-xs">
                 <i class="fa fa-pencil"></i>
-                <h3>IMÓVEL SOB ENCOMENDA</h3>
+                <h3><span class='numscroller' data-min='1' data-max='1000' data-delay='5' data-increment='10'>1000</span></h3>
             </div>  
             <div class="col-md col-xs">
                 <i class="fa fa-pencil"></i>
-                <h3>IMÓVEL SOB ENCOMENDA</h3>
+                <h3><span class='numscroller' data-min='1' data-max='1000' data-delay='5' data-increment='10'>1000</span></h3>
             </div>  
          </div>  
     </div>  
