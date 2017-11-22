@@ -1,7 +1,6 @@
   $('.owl-carousel').owlCarousel({
     loop: true,
     autoplay: true,
-    autoplayTimeout: 1000,
     dots: false,
     responsive:{
       0:{
@@ -15,3 +14,5 @@
       }
     }
   });
+
+ 

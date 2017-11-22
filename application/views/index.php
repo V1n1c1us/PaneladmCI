@@ -12,6 +12,15 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="<?php echo base_url('assets/front/css/owl.carousel.css')?>">
       <link rel="stylesheet" href="<?php echo base_url('assets/front/css/owl.theme.default.css')?>">
+      <link rel="stylesheet" href="<?php echo base_url('assets/front/css/hover.css')?>">
+      <style type="text/css" id="jarallax-clip-0">#jarallax-container-0 {
+   clip: rect(0px 1349px 256px 0);
+   clip: rect(0px, 1349px, 256px, 0);
+}</style>
+<style type="text/css" id="jarallax-clip-1">#jarallax-container-1 {
+   clip: rect(0px 1349px 322px 0);
+   clip: rect(0px, 1349px, 322px, 0);
+}</style>
    </head>
    <body>
       <header>
@@ -87,6 +96,28 @@
                      <div class="at-prorpiedade-img">
                         <img src="http://awesome-theme.com/tf/projects/homy/images/property/1.jpg" alt="">
                         <div class="at-prorpiedade-overlayer"></div>
+                        <a class="btn btn-default at-prorpiedade-btn" href="prorpiedade-details.html" role="button">Mais Detalhes</a>
+                        <h4>Vende-se</h4>
+                        <h5>RS 15,000</h5>
+                     </div>
+                     <div class="at-prorpiedade-dis">
+                        <ul>
+                           <li><i class="fa fa-object-group" aria-hidden="true"></i> 520 sq ft</li>
+                           <li><i class="fa fa-bed" aria-hidden="true"></i> 6</li>
+                           <li><i class="fa fa-bath" aria-hidden="true"></i> 3</li>
+                        </ul>
+                     </div>
+                     <div class="at-prorpiedade-location">
+                     <h4><i class="fa fa-home" aria-hidden="true"></i><a href="prorpiedade-details.html">Condomínio Rego</a></h4>
+                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> Av. Pereira Rego, 1000 , Candelária/RS</p>
+                  </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6">
+                  <div class="at-prorpiedade-item at-col-default-mar animated fadeInUpShort slow go">
+                     <div class="at-prorpiedade-img">
+                        <img src="http://awesome-theme.com/tf/projects/homy/images/property/1.jpg" alt="">
+                        <div class="at-prorpiedade-overlayer"></div>
                         <a class="btn btn-default at-prorpiedade-btn" href="prorpiedade-details.html" role="button">View Details</a>
                         <h4>For Sale</h4>
                         <h5>$59,999</h5>
@@ -100,7 +131,7 @@
                      </div>
                      <div class="at-prorpiedade-location">
                         <h4><i class="fa fa-home" aria-hidden="true"></i><a href="prorpiedade-details.html">New Superb Villa</a></h4>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123 1st Width Road, , summit, new york</p>
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Av. Pereira Rego, 1000 , Candelária/RS</p>
                      </div>
                   </div>
                </div>
@@ -192,35 +223,71 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-4 col-sm-6">
-                  <div class="at-prorpiedade-item at-col-default-mar animated fadeInUpShort slow go">
-                     <div class="at-prorpiedade-img">
-                        <img src="http://awesome-theme.com/tf/projects/homy/images/property/1.jpg" alt="">
-                        <div class="at-prorpiedade-overlayer"></div>
-                        <a class="btn btn-default at-prorpiedade-btn" href="prorpiedade-details.html" role="button">View Details</a>
-                        <h4>For Sale</h4>
-                        <h5>$59,999</h5>
-                     </div>
-                     <div class="at-prorpiedade-dis">
-                        <ul>
-                           <li><i class="fa fa-object-group" aria-hidden="true"></i> 520 sq ft</li>
-                           <li><i class="fa fa-bed" aria-hidden="true"></i> 6</li>
-                           <li><i class="fa fa-bath" aria-hidden="true"></i> 3</li>
-                        </ul>
-                     </div>
-                     <div class="at-prorpiedade-location">
-                        <h4><i class="fa fa-home" aria-hidden="true"></i><a href="prorpiedade-details.html">New Superb Villa</a></h4>
-                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123 1st Width Road, , summit, new york</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="text-center">
-                   <a class="btn btn-default hvr-bounce-to-right" href="prorpiedade-col-3.html" role="button">More prorpiedade</a>
+               <div class="text-center"><a class="btn btn-default hvr-bounce-to-right" href="properties-col-3.html" role="button">Mais Propriedades</a>
                </div>
             </div>
          </div>
       </section>
-      <section class="margin-70">
-      </section>
-      <section class="margin-70">
-      </section>
+      <section class="at-Call-sec jarallax at-over-layer-black" style="background-image: none;background-attachment: scroll;background-size: auto;">
+      <div id="jarallax-container-0" style="position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;overflow: hidden;pointer-events: none;transition: transform linear -1ms, -webkit-transform linear -1ms;visibility: hidden;z-index: -100;"><div style="background-position: 50% 50%; background-repeat: no-repeat; background-image: url(&quot;http://awesome-theme.com/tf/projects/homy/images/background/1.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; transition: transform linear -1ms, -webkit-transform linear -1ms; background-size: 1349px 692.06px; visibility: visible; transform: translate3d(0px, 15.87px, 0px);"></div></div>    
+        <div class="at-Call-both-side clearfix">
+            <div class="at-Call-left">
+                <div class="at-inside-Call">
+                    <h5>BOOK YOUR</h5>
+                    <h2>APPARTMENT OR HOUSE</h2>
+                </div>
+            </div>
+            <div class="at-Call-right">
+                <div class="at-Call-right-inside">
+                    <h2>we are ready to receive your call</h2>
+                    <div class="at-short-line"></div>
+                    <h3><span>+0412 001 123</span></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="margin-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md col-xs feature animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="250">
+                    <i class="fa fa-pencil"></i>
+                    <h3>IMÓVEL SOB ENCOMENDA</h3>
+                    <p>Entre em contato conosco e descreva o imóvel que você procura e nós avisaremos quando encontrá-lo</p>
+                </div>  
+                <div class="col-md col-xs feature animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="250">
+                    <i class="fa fa-pencil"></i>
+                    <h3>FINANCIAMENTO</h3>
+                    <p>As melhores ofertas de crédito para você financiar seu imóvel</p>
+                </div> 
+                <div class="col-md col-xs feature animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="250">
+                    <i class="fa fa-pencil"></i>
+                    <h3>PRÉDIO COMERCIAL</h3>
+                    <p>Sua empresa precisa de um novo espaço? Temos imóveis comercias com preços excelentes e espaços arrojados</p>
+                </div>             
+            </div>    
+        </div>    
+    </section>
+    <section class="parallax pattern-bg" data-stellar-background-ratio="0.5" style="background-position: -25px -51.3984px;">>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="section-title animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="50">Our Partners</h1>
+						
+						<div id="partners">
+							<div class="item animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="250">
+								<a href="#"><img src="images/partner1.png" alt="" onmouseover="this.src='images/partner1-mouseover.png';" onmouseout="this.src='images/partner1.png';"></a>
+							</div>
+							<div class="item animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="450">
+								<a href="#"><img src="images/partner2.png" alt="" onmouseover="this.src='images/partner2-mouseover.png';" onmouseout="this.src='images/partner2.png';"></a>
+							</div>
+							<div class="item animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="650">
+								<a href="#"><img src="images/partner3.png" alt="" onmouseover="this.src='images/partner3-mouseover.png';" onmouseout="this.src='images/partner3.png';"></a>
+							</div>
+							<div class="item animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="850">
+								<a href="#"><img src="images/partner4.png" alt="" onmouseover="this.src='images/partner4-mouseover.png';" onmouseout="this.src='images/partner4.png';"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </section>
